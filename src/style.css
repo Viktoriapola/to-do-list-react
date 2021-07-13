@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #222222;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  border: 0;
+  border-bottom: 1px solid whitesmoke;
+  background: none;
+  color: white;
+  padding: 0 10px;
+  outline: none;
+}
+
+.enter {
+  width: 100px;
+  height: 30px;
+  font-style: 12px;
+  border   : 1px solid whitesmoke;
+  background: none;
+  color: whitesmoke;
+  margin-left: 10px;
+}
+
+.enter:hover {
+  background: whitesmoke;
+  color: #222222;
+  cursor: pointer;
+}
+
+.todo__item {
+  position: absolute;
+  cursor: move;
+  min-width: 215px;
+  color: black;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.delete {
+  position: absolute;
+  right: 9px;
+  top: 6px;
+  background: none;
+  border: none;
+}
+
+.delete:hover {
+  color: red;
+  cursor: pointer;
+}
